@@ -1,0 +1,111 @@
+body {
+    background-image: url('angel.jpg');
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.Me{
+margin-top: 30px;
+margin-left: 100;
+font-size: 40px;
+font-family: Lucida Handwriting;
+color: black;
+text-align: center;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.info h1{
+    font-size: 40px;
+    color: black;
+}
+.info h1 span{
+    color: orange;
+}
+.info p{
+    color: black;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: red;
+    border-radius: 100px;
+    transform: background 0.5s;
+}
+
+.btn1:hover {
+    background: #dadada;
+}
+
+.btn2{
+    display: inline-block;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    color: blue;
+    border-radius: 100px;
+    transform: background 0.5s;
+    background-color: lightblue;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.btn2:hover {
+    background: lightblue;
+}
+
+.btn3{
+    display: inline-block;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    color: pink;
+    border-radius: 100px;
+    transform: background 0.5s;
+    background-color: peachpuff;
+    text-align: center;
+
+}
+
+.btn3:hover {
+    background: peachpuff;
+}
+
+.btn4{
+    display: inline-block;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    color: pink;
+    border-radius: 100px;
+    transform: background 0.5s;
+    background-color: skyblue;
+    text-align: center;
+
+}
+
+.btn4:hover {
+    background: lightblue;
+}

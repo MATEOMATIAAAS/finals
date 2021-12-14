@@ -1,0 +1,49 @@
+body {
+    background-image: url('car.png');
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.Hobbies{
+list-style: none;
+margin-top: 30px;
+font-size: 100px;
+font-family: Lucida Handwriting;
+color: #F0E9D2;
+}
+
+
+li {
+  list-style: none;
+  margin-top: 30px;
+  font-size: 50px;
+  margin-right: 40px;
+}
+
+li a{
+  text-decoration: none;
+  color: #F0E9D2;
+  font-family: Courier New;
+  font-weight: bold;
+  transition: 0.4s ease in out;
+
+}
+
+li a:hover{
+  color: red;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: red;
+    border-radius: 100px;
+    transform: background 0.5s;
+}
+
+.btn1:hover {
+    background: #dadada;
+}
